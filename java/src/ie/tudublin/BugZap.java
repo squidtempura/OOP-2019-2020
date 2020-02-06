@@ -45,17 +45,14 @@ public class BugZap extends PApplet
 	{
 		if (keyCode == LEFT)
 		{
-            System.out.println("Left arrow pressed");
             playerX = playerX - 30;
 		}
 		if (keyCode == RIGHT)
 		{
-            System.out.println("Right arrow pressed");
             playerX = playerX + 30;
 		}
 		if (key == ' ')
 		{
-            System.out.println("SPACE key pressed");
             line(playerX,playerY-10,playerX,0);
 		}
     }
